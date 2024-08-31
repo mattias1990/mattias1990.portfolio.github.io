@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Imagenes/ico.png" type="image/x-icon">
+    <title>Matias Marcó</title>
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">M.M</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">sobre mí</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">portfolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="Imagenes/portfolio.png" alt="">
+            </div>
+            <h1>MATIAS MARCÓ</h1>
+            <h2>Desarrollador Web Front End</h2>
+            <div class="redes">
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/mattias1990" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>sobre mí</h2>
+            <p><span>Hola, soy Matias,</span> hace poco comencé mi camino en el mundo de la
+                programación, impulsado por mi pasión por la tecnología y el deseo de construir
+                soluciones web. Actualmente me estoy enfocando en formarme como desarrollador
+                front-end, con conocimientos en HTML, CSS3 y JavaScript.
+
+                Estoy en busca de oportunidades que me permitan aprender y crecer profesionalmente,
+                mientras aplico lo
+                que he aprendido hasta ahora. Mi meta es seguir mejorando mis habilidades y poder
+                trabajar en lo que
+                realmente me apasiona: el desarrollo web.
+
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Fecha de nacimiento</strong>
+                                18/11/1990
+                            </li>
+                            <li>
+                                <strong>E-m@il</strong>
+                                matiasmarcoloberia@gmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Lamadrid 55, Lobería, Prov. de Buenos Aires, Argentina.
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>Freelance</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="intereses">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-microchip"></i>
+                                <span>TECH</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LITERATURA</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-palette"></i>
+                                <span>ARTE</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="intereses">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJAR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </p>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Técnicas</h3>
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso html">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CSS3</span>
+                        <div class="barra-skill">
+                            <div class="progreso css3">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Professional Skill -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso teq">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Secundario completo</h4>
+                        <span class="casa">Plan FinEs</span>
+                        <span class="fecha">2017 - 2018</span>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diplomatura en diseño de páginas web</h4>
+                        <span class="casa">Universidad de Lobería</span>
+                        <span class="fecha">2023</span>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Mozo en restaurante "El Reencuentro"</h4>
+                        <span class="casa">25 de mayo</span>
+                        <span class="fecha">2007 - 2008</span>
+                    </div>
+                    <div class="item der">
+                        <h4>Mozo en pizzería "Don Vicente"</h4>
+                        <span class="casa">Bragado</span>
+                        <span class="fecha">2008 - 2009</span>
+                    </div>
+                    <div class="item der">
+                        <h4>Empleado en área de estampado en fábrica de ropa "Skoops"</h4>
+                        <span class="casa">Bragado</span>
+                        <span class="fecha">2010 - 2011</span>
+                    </div>
+                    <div class="item der">
+                        <h4>Empleado en local de informática "eMe"</h4>
+                        <span class="casa">Lobería</span>
+                        <span class="fecha">2013 - 2014</span>
+                    </div>
+                    <div class="item der">
+                        <h4>Sereno en hogar de refugio "Gambetenado Vientos"</h4>
+                        <span class="casa">Lobería</span>
+                        <span class="fecha">2015 - 2016</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <div class="overlay">
+                        <h3>LitHub</h3>
+                        <a href="https://mattias1990.github.io/index.html" target="_blank">Click para ver</a>
+                    </div>
+                    <img src="Imagenes/port1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>contacto</h2>
+            <div class="fila">
+                <!-- formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Número de teléfono">
+                    <input type="text" placeholder="Correo electrónico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- mapa -->
+                <div class="col">
+                    <img src="Imagenes/Sin título.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/mattias1990" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
